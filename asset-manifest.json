@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/shoppingcart.github.io/static/css/main.a2f0c403.css",
+    "main.js": "/shoppingcart.github.io/static/js/main.82c9efa0.js",
+    "static/js/787.465c4015.chunk.js": "/shoppingcart.github.io/static/js/787.465c4015.chunk.js",
+    "static/media/CorianderLeaves.jpg": "/shoppingcart.github.io/static/media/CorianderLeaves.5d59f430cfcbb813e397.jpg",
+    "static/media/cauliflower.jpg": "/shoppingcart.github.io/static/media/cauliflower.299417bd2025a5fa113d.jpg",
+    "static/media/carrot.jpg": "/shoppingcart.github.io/static/media/carrot.5db8dd0d31d908f0a447.jpg",
+    "index.html": "/shoppingcart.github.io/index.html",
+    "main.a2f0c403.css.map": "/shoppingcart.github.io/static/css/main.a2f0c403.css.map",
+    "main.82c9efa0.js.map": "/shoppingcart.github.io/static/js/main.82c9efa0.js.map",
+    "787.465c4015.chunk.js.map": "/shoppingcart.github.io/static/js/787.465c4015.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2f0c403.css",
+    "static/js/main.82c9efa0.js"
+  ]
+}
