@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import React from "react";
+import "./App.css";
+import Home from "./components/Home";
+import Cart from "./components/cart";
+import Header from "./components/header";
+import Showcattegories from "./components/showcattegories";
+import SliderAndOffer from "./components/sliderAndOffer";
+import Main from "./components/main";
+import Footer from "./components/footer";
+import { CartProvider } from "react-use-cart";
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <Showcattegories />
+      <SliderAndOffer />
+      <CartProvider>
+        <Home />
+        <Cart />
+      </CartProvider>
+      <Main />
+      <Footer />
+    </>
   );
 }
-
-export default App;
